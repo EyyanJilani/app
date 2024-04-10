@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Icon1 {
+  background: linear-gradient(#00ebc1, #00bdc9);
+}
+.Icon2 {
+  background: linear-gradient(#26c8fc, #5e76f5);
+}
+.Icon3 {
+  background: linear-gradient(#ffd875, #f43d53);
+}
+.Icon4 {
+  background: linear-gradient(#fc6fff, #af3df4);
+}
+.boxesParent {
+  display: grid;
+  grid-template-columns: 28% 28% 28% 28%;
+}
+.bgRound {
+  background-image: url(./assets/img/roundBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
